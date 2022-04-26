@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Principal
 {
+    //Integrantes del equipo:   Karol Vanessa Cuello Ribón    -   Diego Daniel Vargas Puerta    -   Juan Jose Mosquera Mayo     :)
     public static void main(String [] args) {
         Principal.mostrarMenu();
         
