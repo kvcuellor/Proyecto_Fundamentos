@@ -13,7 +13,7 @@ public class Principal
             System.out.println(" ");
             System.out.println("FUNCIONES DEL PROGRAMA:");
             System.out.println("Si ingresa el número 0, se finaliza la ejecución del programa");
-            System.out.println("Si ingresa el número 1, debe ingresar nombre, salud, fecha de nacimiento, y tipo de sangre de un Zombie");
+            System.out.println("Si ingresa el número 1, debe ingresar nombre, salud, año de nacimiento, y tipo de sangre de un Zombie");
             System.out.println("Si ingresa el número 2, se mostrará la información de todos los zombies");
             System.out.println("Si ingresa el número 3, se mostrará la cantidad de zombies creados");
             System.out.println("Si ingresa el número 4, se mostrará la información de todos los zombies que tengan tipo de sangre “O+” o “AB+”");
@@ -41,7 +41,7 @@ public class Principal
                     String nombre = scan.next();
                     System.out.println("ingrese la salud del Zombie");
                     double salud = scan.nextDouble();
-                    System.out.println("Ingrese la fecha de nacimiento del Zombie");
+                    System.out.println("Ingrese el año de nacimiento del Zombie");
                     int fecha = scan.nextInt();
                     System.out.println("Ingrese el tipo de sangre del Zombie");
                     String tiposangre = scan.next();                    
@@ -58,7 +58,7 @@ public class Principal
                             System.out.println("Zombie " + (i+1) + "!");
                             System.out.println("Nombre: " + Zombie.zombies.get(i).getNombreZ());
                             System.out.println("Salud: " + Zombie.zombies.get(i).getSalud());
-                            System.out.println("Fecha de nacimento: " + (Zombie.zombies).get(i).getFechaNacimiento());
+                            System.out.println("Año de nacimento: " + (Zombie.zombies).get(i).getFechaNacimiento());
                             System.out.println("Tipo de sangre: " + Zombie.zombies.get(i).getTipoSangre());
                         }
                     }
@@ -79,7 +79,7 @@ public class Principal
                                 System.out.println("\nZombie# " + (i+1) + ":");
                                 System.out.println("Nombre: " + Zombie.zombies.get(i).getNombreZ());
                                 System.out.println("Salud: " + Zombie.zombies.get(i).getSalud());
-                                System.out.println("Fecha de nacimiento: " +Zombie.zombies.get(i).getFechaNacimiento());
+                                System.out.println("Año de nacimiento: " +Zombie.zombies.get(i).getFechaNacimiento());
                                 System.out.println("Tipo de sangre: " + Zombie.zombies.get(i).getTipoSangre());
                                 contador++;
                             }
@@ -100,7 +100,7 @@ public class Principal
                                 System.out.println("\nZombie# " + (i+1) + "!");
                                 System.out.println("Nombre: " + Zombie.zombies.get(i).getNombreZ());
                                 System.out.println("Salud: " + Zombie.zombies.get(i).getSalud());
-                                System.out.println("Fecha de nacimiento: " +Zombie.zombies.get(i).getFechaNacimiento());
+                                System.out.println("Año de nacimiento: " +Zombie.zombies.get(i).getFechaNacimiento());
                                 System.out.println("Tipo de sangre: " + Zombie.zombies.get(i).getTipoSangre());
                                 contador2++;
                             }
